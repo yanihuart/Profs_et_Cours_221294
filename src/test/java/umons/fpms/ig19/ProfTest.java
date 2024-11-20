@@ -287,8 +287,7 @@ public class ProfTest {
     public void testToString() {
         System.out.println("Prof.Test.toString");
         Prof instance = new Prof("PROF1", "Prof1", "10/05/1986", "Bordeau");
-        // assertNotEquals(prof.toString(), instance.toString());
-        assertNotEquals("hello", instance.toString());
+        assertNotEquals(prof.toString(), instance.toString());
         
         instance = new Prof("NOFFABEL", "Dadday", "12/07/1989", "Yamoussoukro");
         assertEquals(prof.toString(), instance.toString());
